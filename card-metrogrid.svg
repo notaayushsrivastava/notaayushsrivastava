@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="420" height="200" viewBox="0 0 420 200">
+  <defs>
+    <linearGradient id="bg-mg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0e1116"/>
+      <stop offset="100%" stop-color="#080a0d"/>
+    </linearGradient>
+    <radialGradient id="glow-mg" cx="90%" cy="30%" r="55%">
+      <stop offset="0%" stop-color="rgba(30,41,59,0.35)"/>
+      <stop offset="100%" stop-color="transparent"/>
+    </radialGradient>
+    <clipPath id="rounded-mg"><rect width="420" height="200" rx="14"/></clipPath>
+  </defs>
+  <g clip-path="url(#rounded-mg)">
+    <rect width="420" height="200" fill="url(#bg-mg)"/>
+    <rect width="420" height="200" fill="url(#glow-mg)"/>
+    <rect width="420" height="200" rx="14" fill="none" stroke="#242a34" stroke-width="1"/>
+
+    <!-- Top row -->
+    <text x="20" y="28" fill="#82828e" font-family="'JetBrains Mono',monospace" font-size="9" letter-spacing="2">EXP-09 // URBAN SIMULATION</text>
+    
+    <!-- Award badge -->
+    <rect x="268" y="12" width="138" height="24" rx="0" fill="none" stroke="rgba(227,169,191,0.45)" stroke-width="0.8"/>
+    <rect x="268" y="12" width="138" height="24" rx="0" fill="rgba(160,66,99,0.25)"/>
+    <text x="280" y="28" fill="#fce7f3" font-family="'Instrument Sans',sans-serif" font-size="7.5" font-weight="700" letter-spacing="1.2">2ND RUNNERS UP · C2C 7.0</text>
+
+    <!-- Brand -->
+    <text x="20" y="68" fill="#f5f7fa" font-family="'Instrument Sans',system-ui,sans-serif" font-size="13" font-weight="700" letter-spacing="1">
+      <tspan fill="#7cffb2">▦</tspan>  MetroGrid
+    </text>
+    
+    <!-- Title -->
+    <text x="20" y="96" fill="#f5f7fa" font-family="'Clash Display',sans-serif" font-size="22" font-weight="600">Design better <tspan fill="#7cffb2">cities.</tspan></text>
+    
+    <!-- Description -->
+    <text x="20" y="122" fill="#8d96a5" font-family="'Instrument Sans',sans-serif" font-size="12">Build, simulate, and understand urban environments</text>
+    <text x="20" y="138" fill="#8d96a5" font-family="'Instrument Sans',sans-serif" font-size="12">from one living model. A* traffic routing and GIS.</text>
+
+    <!-- Tags -->
+    <rect x="20" y="155" width="64" height="24" rx="0" fill="#10141b" stroke="#242a34" stroke-width="0.8"/>
+    <text x="28" y="171" fill="#8d96a5" font-family="'JetBrains Mono',monospace" font-size="9" letter-spacing="0.8">REACT 19</text>
+    
+    <rect x="92" y="155" width="58" height="24" rx="0" fill="#10141b" stroke="#242a34" stroke-width="0.8"/>
+    <text x="100" y="171" fill="#8d96a5" font-family="'JetBrains Mono',monospace" font-size="9" letter-spacing="0.8">FASTAPI</text>
+    
+    <rect x="158" y="155" width="82" height="24" rx="0" fill="#10141b" stroke="#242a34" stroke-width="0.8"/>
+    <text x="166" y="171" fill="#8d96a5" font-family="'JetBrains Mono',monospace" font-size="9" letter-spacing="0.8">SIMULATION</text>
+    
+    <rect x="248" y="155" width="62" height="24" rx="0" fill="#10141b" stroke="#242a34" stroke-width="0.8"/>
+    <text x="256" y="171" fill="#8d96a5" font-family="'JetBrains Mono',monospace" font-size="9" letter-spacing="0.8">THREE.JS</text>
+
+    <!-- Status pill -->
+    <rect x="320" y="60" width="84" height="22" rx="0" fill="rgba(124,255,178,0.06)" stroke="rgba(124,255,178,0.25)" stroke-width="0.8"/>
+    <circle cx="332" cy="71" r="3" fill="#7cffb2"/>
+    <text x="340" y="75" fill="#7cffb2" font-family="'JetBrains Mono',monospace" font-size="8" font-weight="700" letter-spacing="0.8">LIVE MODEL</text>
+  </g>
+</svg>

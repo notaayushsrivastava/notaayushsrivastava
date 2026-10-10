@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="420" height="200" viewBox="0 0 420 200">
+  <defs>
+    <linearGradient id="bg-lq" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0f1224"/>
+      <stop offset="100%" stop-color="#0b0e1c"/>
+    </linearGradient>
+    <linearGradient id="grad-lq" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#66c7ff"/>
+      <stop offset="100%" stop-color="#bb7cff"/>
+    </linearGradient>
+    <radialGradient id="glow-lq" cx="70%" cy="25%" r="50%">
+      <stop offset="0%" stop-color="rgba(102,199,255,0.08)"/>
+      <stop offset="100%" stop-color="transparent"/>
+    </radialGradient>
+    <pattern id="grid-lq" width="34" height="34" patternUnits="userSpaceOnUse">
+      <path d="M 34 0 L 0 0 0 34" fill="none" stroke="rgba(255,255,255,0.035)" stroke-width="0.5"/>
+    </pattern>
+    <clipPath id="rounded-lq"><rect width="420" height="200" rx="14"/></clipPath>
+  </defs>
+  <g clip-path="url(#rounded-lq)">
+    <rect width="420" height="200" fill="url(#bg-lq)"/>
+    <rect width="420" height="200" fill="url(#grid-lq)"/>
+    <rect width="420" height="200" fill="url(#glow-lq)"/>
+    <rect width="420" height="200" rx="14" fill="none" stroke="rgba(102,199,255,0.28)" stroke-width="1"/>
+
+    <!-- Top -->
+    <text x="20" y="28" fill="#82828e" font-family="'JetBrains Mono',monospace" font-size="9" letter-spacing="2">EXP-07 // WI-FI CLIENT</text>
+    
+    <!-- Badge -->
+    <rect x="320" y="12" width="84" height="22" rx="11" fill="url(#grad-lq)"/>
+    <text x="330" y="27" fill="#06101c" font-family="'Manrope',sans-serif" font-size="8" font-weight="800" letter-spacing="1.4">RELEASED</text>
+
+    <!-- Title -->
+    <text x="20" y="72" fill="#f4f4ef" font-family="'Space Grotesk',sans-serif" font-size="26" font-weight="600">Loqin </text>
+    <text x="105" y="72" fill="url(#grad-lq)" font-family="'Space Grotesk',sans-serif" font-size="26" font-weight="600">PC</text>
+    
+    <!-- Description -->
+    <text x="20" y="100" fill="#a7b0d6" font-family="'General Sans',sans-serif" font-size="12">A system-tray client that keeps VIT hostel Wi-Fi alive</text>
+    <text x="20" y="116" fill="#a7b0d6" font-family="'General Sans',sans-serif" font-size="12">— automatic re-auth, OS-native credentials, zero clicks.</text>
+
+    <!-- Tags -->
+    <rect x="20" y="138" width="58" height="24" rx="12" fill="rgba(16,21,38,0.5)" stroke="rgba(146,160,215,0.28)" stroke-width="0.8"/>
+    <text x="30" y="154" fill="#a7b0d6" font-family="'JetBrains Mono',monospace" font-size="9" letter-spacing="0.8">PYTHON</text>
+    
+    <rect x="86" y="138" width="92" height="24" rx="12" fill="rgba(16,21,38,0.5)" stroke="rgba(146,160,215,0.28)" stroke-width="0.8"/>
+    <text x="96" y="154" fill="#a7b0d6" font-family="'JetBrains Mono',monospace" font-size="9" letter-spacing="0.8">WINDOWS TRAY</text>
+    
+    <rect x="186" y="138" width="84" height="24" rx="12" fill="rgba(16,21,38,0.5)" stroke="rgba(146,160,215,0.28)" stroke-width="0.8"/>
+    <text x="196" y="154" fill="#a7b0d6" font-family="'JetBrains Mono',monospace" font-size="9" letter-spacing="0.8">AUTOMATION</text>
+
+    <!-- Status -->
+    <rect x="20" y="172" width="106" height="22" rx="11" fill="rgba(102,199,255,0.09)" stroke="rgba(102,199,255,0.25)" stroke-width="0.8"/>
+    <circle cx="34" cy="183" r="3.5" fill="#34d399"/>
+    <text x="44" y="187" fill="#dff3ff" font-family="'Manrope',sans-serif" font-size="8.5" font-weight="700" letter-spacing="0.8">LIVE MONITORING</text>
+  </g>
+</svg>

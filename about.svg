@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="230" viewBox="0 0 900 230">
+  <defs>
+    <linearGradient id="ab-bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#08080a"/>
+      <stop offset="100%" stop-color="#040405"/>
+    </linearGradient>
+    <radialGradient id="ab-glow" cx="85%" cy="30%" r="50%">
+      <stop offset="0%" stop-color="rgba(200,255,77,0.06)"/>
+      <stop offset="100%" stop-color="transparent"/>
+    </radialGradient>
+    <clipPath id="ab-clip"><rect width="900" height="230" rx="14"/></clipPath>
+  </defs>
+
+  <g clip-path="url(#ab-clip)">
+    <rect width="900" height="230" fill="url(#ab-bg)"/>
+    <rect width="900" height="230" fill="url(#ab-glow)"/>
+    <rect width="900" height="230" rx="14" fill="none" stroke="rgba(255,255,255,0.09)" stroke-width="1"/>
+
+    <!-- Section Header -->
+    <text x="36" y="32" fill="#63636b" font-family="'JetBrains Mono',monospace" font-size="10" letter-spacing="2">01 // WHO</text>
+    <text x="36" y="58" fill="#f4f4ef" font-family="'Clash Display','Segoe UI',sans-serif" font-size="22" font-weight="600">
+      Signal <tspan fill="#a0a0a8" font-weight="400">origin</tspan>
+    </text>
+
+    <!-- Left Column: About Statement -->
+    <g transform="translate(36, 90)">
+      <text x="0" y="0" fill="#f4f4ef" font-family="'General Sans','Segoe UI',sans-serif" font-size="15" line-height="1.6">
+        I'm Aayush — a <tspan fill="#c8ff4d" font-weight="600">17-year-old</tspan> programmer and designer
+      </text>
+      <text x="0" y="24" fill="#f4f4ef" font-family="'General Sans',sans-serif" font-size="15">
+        who turns late-night ideas into <tspan fill="#c8ff4d" font-weight="600">working software</tspan>.
+      </text>
+      <text x="0" y="48" fill="#a0a0a8" font-family="'General Sans',sans-serif" font-size="14">
+        This profile and website is my lab: a living codebase I constantly
+      </text>
+      <text x="0" y="70" fill="#a0a0a8" font-family="'General Sans',sans-serif" font-size="14">
+        upgrade with autonomous agents, spatial UI, and systems tools.
+      </text>
+      <text x="0" y="100" fill="#63636b" font-family="'JetBrains Mono',monospace" font-size="10" letter-spacing="1">
+        // EVERYTHING SHIPPED SOLO · DESIGNED, CODED &amp; DEPLOYED
+      </text>
+    </g>
+
+    <!-- Right Column: Terminal Side Card (matches site's .side-card) -->
+    <g transform="translate(520, 32)">
+      <rect x="0" y="0" width="344" height="166" rx="10" fill="rgba(255,255,255,0.02)" stroke="rgba(255,255,255,0.08)" stroke-width="1"/>
+      
+      <!-- Top header bar in sidecard -->
+      <line x1="0" y1="32" x2="344" y2="32" stroke="rgba(255,255,255,0.05)" stroke-width="1"/>
+      <circle cx="18" cy="16" r="3.5" fill="#c8ff4d"/>
+      <text x="30" y="20" fill="#a0a0a8" font-family="'JetBrains Mono',monospace" font-size="9" letter-spacing="1">TERMINAL // SYSTEM SPEC</text>
+      <text x="326" y="20" fill="#63636b" font-family="'JetBrains Mono',monospace" font-size="9" text-anchor="end">SIGNAL.SYS</text>
+
+      <!-- Terminal content -->
+      <g transform="translate(18, 54)">
+        <text x="0" y="0" fill="#63636b" font-family="'JetBrains Mono',monospace" font-size="10.5" letter-spacing="1.2">NAME     :</text>
+        <text x="85" y="0" fill="#f4f4ef" font-family="'JetBrains Mono',monospace" font-size="10.5" font-weight="600">AAYUSH SRIVASTAVA</text>
+
+        <text x="0" y="22" fill="#63636b" font-family="'JetBrains Mono',monospace" font-size="10.5" letter-spacing="1.2">ROLE     :</text>
+        <text x="85" y="22" fill="#f4f4ef" font-family="'JetBrains Mono',monospace" font-size="10.5" font-weight="600">PROGRAMMER × DESIGNER</text>
+
+        <text x="0" y="44" fill="#63636b" font-family="'JetBrains Mono',monospace" font-size="10.5" letter-spacing="1.2">EMAIL    :</text>
+        <text x="85" y="44" fill="#c8ff4d" font-family="'JetBrains Mono',monospace" font-size="10.5" font-weight="600">aayush@aayushsrivastava.com</text>
+
+        <text x="0" y="66" fill="#63636b" font-family="'JetBrains Mono',monospace" font-size="10.5" letter-spacing="1.2">BASE     :</text>
+        <text x="85" y="66" fill="#f4f4ef" font-family="'JetBrains Mono',monospace" font-size="10.5">INDIA · IN</text>
+
+        <text x="0" y="88" fill="#63636b" font-family="'JetBrains Mono',monospace" font-size="10.5" letter-spacing="1.2">STATUS   :</text>
+        <text x="85" y="88" fill="#9dffb0" font-family="'JetBrains Mono',monospace" font-size="10.5" font-weight="700">BUILDING DAILY</text>
+      </g>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="64" viewBox="0 0 900 64">
+  <defs>
+    <linearGradient id="stack-bg" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#060607"/>
+      <stop offset="100%" stop-color="#030304"/>
+    </linearGradient>
+    <clipPath id="stack-clip"><rect width="900" height="64" rx="12"/></clipPath>
+  </defs>
+  <g clip-path="url(#stack-clip)">
+    <rect width="900" height="64" fill="url(#stack-bg)"/>
+    <rect width="900" height="64" rx="12" fill="none" stroke="rgba(255,255,255,0.08)" stroke-width="1"/>
+
+    <!-- Stack Pills -->
+    <g transform="translate(18, 16)">
+      <!-- Pill 1: Python -->
+      <rect x="0" y="0" width="86" height="32" rx="16" fill="rgba(200,255,77,0.08)" stroke="rgba(200,255,77,0.3)" stroke-width="0.8"/>
+      <text x="43" y="20" fill="#c8ff4d" font-family="'JetBrains Mono',monospace" font-size="10.5" font-weight="700" letter-spacing="1" text-anchor="middle">PYTHON</text>
+
+      <!-- Pill 2: FastAPI & Flask -->
+      <rect x="96" y="0" width="138" height="32" rx="16" fill="rgba(255,255,255,0.03)" stroke="rgba(255,255,255,0.08)" stroke-width="0.8"/>
+      <text x="165" y="20" fill="#f4f4ef" font-family="'JetBrains Mono',monospace" font-size="10" font-weight="600" letter-spacing="0.8" text-anchor="middle">FASTAPI · FLASK</text>
+
+      <!-- Pill 3: JavaScript -->
+      <rect x="244" y="0" width="112" height="32" rx="16" fill="rgba(255,255,255,0.03)" stroke="rgba(255,255,255,0.08)" stroke-width="0.8"/>
+      <text x="300" y="20" fill="#f4f4ef" font-family="'JetBrains Mono',monospace" font-size="10" font-weight="600" letter-spacing="0.8" text-anchor="middle">JAVASCRIPT</text>
+
+      <!-- Pill 4: Three.js -->
+      <rect x="366" y="0" width="94" height="32" rx="16" fill="rgba(255,255,255,0.03)" stroke="rgba(255,255,255,0.08)" stroke-width="0.8"/>
+      <text x="413" y="20" fill="#f4f4ef" font-family="'JetBrains Mono',monospace" font-size="10" font-weight="600" letter-spacing="0.8" text-anchor="middle">THREE.JS</text>
+
+      <!-- Pill 5: UI & Design -->
+      <rect x="470" y="0" width="108" height="32" rx="16" fill="rgba(157,255,176,0.06)" stroke="rgba(157,255,176,0.25)" stroke-width="0.8"/>
+      <text x="524" y="20" fill="#9dffb0" font-family="'JetBrains Mono',monospace" font-size="10" font-weight="700" letter-spacing="0.8" text-anchor="middle">UI / DESIGN</text>
+
+      <!-- Pill 6: Socket.IO -->
+      <rect x="588" y="0" width="100" height="32" rx="16" fill="rgba(255,255,255,0.03)" stroke="rgba(255,255,255,0.08)" stroke-width="0.8"/>
+      <text x="638" y="20" fill="#a0a0a8" font-family="'JetBrains Mono',monospace" font-size="10" font-weight="600" letter-spacing="0.8" text-anchor="middle">SOCKET.IO</text>
+
+      <!-- Pill 7: AI & MCP -->
+      <rect x="698" y="0" width="88" height="32" rx="16" fill="rgba(127,209,168,0.08)" stroke="rgba(127,209,168,0.3)" stroke-width="0.8"/>
+      <text x="742" y="20" fill="#7fd1a8" font-family="'JetBrains Mono',monospace" font-size="10" font-weight="700" letter-spacing="0.8" text-anchor="middle">AI · MCP</text>
+
+      <!-- Pill 8: Automation -->
+      <rect x="796" y="0" width="70" height="32" rx="16" fill="rgba(255,255,255,0.03)" stroke="rgba(255,255,255,0.08)" stroke-width="0.8"/>
+      <text x="831" y="20" fill="#a0a0a8" font-family="'JetBrains Mono',monospace" font-size="9.5" font-weight="600" letter-spacing="0.8" text-anchor="middle">AUTOMATION</text>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="180" viewBox="0 0 900 180">
+  <defs>
+    <linearGradient id="log-bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#08080a"/>
+      <stop offset="100%" stop-color="#040405"/>
+    </linearGradient>
+    <radialGradient id="log-glow" cx="85%" cy="30%" r="50%">
+      <stop offset="0%" stop-color="rgba(127,209,168,0.06)"/>
+      <stop offset="100%" stop-color="transparent"/>
+    </radialGradient>
+    <clipPath id="log-clip"><rect width="900" height="180" rx="14"/></clipPath>
+  </defs>
+
+  <g clip-path="url(#log-clip)">
+    <rect width="900" height="180" fill="url(#log-bg)"/>
+    <rect width="900" height="180" fill="url(#log-glow)"/>
+    <rect width="900" height="180" rx="14" fill="none" stroke="rgba(255,255,255,0.09)" stroke-width="1"/>
+
+    <!-- Section Header -->
+    <text x="36" y="32" fill="#63636b" font-family="'JetBrains Mono',monospace" font-size="10" letter-spacing="2">03 // LOG</text>
+    <text x="36" y="58" fill="#f4f4ef" font-family="'Clash Display','Segoe UI',sans-serif" font-size="22" font-weight="600">
+      Latest <tspan fill="#a0a0a8" font-weight="400">transmission</tspan>
+    </text>
+
+    <!-- Version Pill -->
+    <rect x="36" y="80" width="70" height="22" rx="11" fill="rgba(200,255,77,0.1)" stroke="rgba(200,255,77,0.3)" stroke-width="0.8"/>
+    <text x="71" y="94" fill="#c8ff4d" font-family="'JetBrains Mono',monospace" font-size="10" font-weight="700" text-anchor="middle">v1.6.0</text>
+    <text x="116" y="94" fill="#63636b" font-family="'JetBrains Mono',monospace" font-size="10">2026-09-20</text>
+
+    <text x="36" y="126" fill="#f4f4ef" font-family="'Clash Display',sans-serif" font-size="18" font-weight="600">
+      Site evolves. Constantly.
+    </text>
+    <text x="36" y="148" fill="#a0a0a8" font-family="'General Sans',sans-serif" font-size="12.5">
+      Added BreachLabs application-security engineer · Code2Create 7.0 award winner · High-cadence deployments
+    </text>
+
+    <!-- Right Side CTA Pill -->
+    <g transform="translate(680, 70)">
+      <rect x="0" y="0" width="180" height="38" rx="19" fill="rgba(255,255,255,0.03)" stroke="rgba(255,255,255,0.12)" stroke-width="1"/>
+      <text x="90" y="24" fill="#f4f4ef" font-family="'JetBrains Mono',monospace" font-size="10" font-weight="700" letter-spacing="1" text-anchor="middle">
+        VIEW CHANGELOGS ↗
+      </text>
+    </g>
+  </g>
+</svg>
